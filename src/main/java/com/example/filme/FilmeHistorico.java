@@ -15,7 +15,6 @@ public class FilmeHistorico {
     private String acao;
     private LocalDateTime dataAlteracao;
 
-    // Getters e Setters
     public Long getId() {
         return id;
     }
