@@ -1,5 +1,6 @@
-package com.example.filme;
+package com.example.filme.repository;
 
+import com.example.filme.model.FilmeHistorico;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

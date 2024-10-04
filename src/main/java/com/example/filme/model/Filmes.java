@@ -1,4 +1,4 @@
-package com.example.filme;
+package com.example.filme.model;
 
 import jakarta.persistence.*;
 

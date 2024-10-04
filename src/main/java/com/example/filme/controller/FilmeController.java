@@ -1,5 +1,8 @@
-package com.example.filme;
+package com.example.filme.controller;
 
+import com.example.filme.model.FilmeHistorico;
+import com.example.filme.service.FilmeService;
+import com.example.filme.model.Filmes;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,11 +1,14 @@
-package com.example.filme;
+package com.example.filme.service;
 
+import com.example.filme.repository.FilmesRepository;
+import com.example.filme.model.FilmeHistorico;
+import com.example.filme.model.Filmes;
+import com.example.filme.repository.FilmeHistoricoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class FilmeService {
